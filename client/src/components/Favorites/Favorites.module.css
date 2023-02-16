@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.title2{
+    display: block;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration-line: overline;
+    height: 70px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    padding-top: 17px;
+    
+}
+
+ .empty {
+    padding-top: 150px;
+    color: white;
+    padding-bottom: 170px;
+    letter-spacing: 2px;  
+ }
+
+ 

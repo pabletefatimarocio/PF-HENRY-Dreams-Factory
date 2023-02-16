@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.filters{
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.btn {
+  user-select: none;
+  border: none;
+  border: 2px solid #8a5cbe;
+  background-color: #a176e0; 
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3px 10px;
+  cursor:pointer;
+  transition: 250ms ease-out;
+}
+
+.btn:hover{
+  letter-spacing: 0.1em;
+  background-color: #8a5cbe;
+  box-shadow: 0 0 10px #8a5cbe,
+  0 0 30px #8a5cbe,
+  0 0 10px #8a5cbe
+}
+
+.btn:active {
+  transform: translateY(2px);
+  background-color: #8a5cbe;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+  user-select: none;
+  border: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3px 10px;
+  cursor:pointer;
+  transform: translateY(2px);
+  background-color: #8a5cbe;
+  box-shadow: 0 0 10px #8a5cbe,
+  0 0 30px #8a5cbe,
+  0 0 10px #8a5cbe
+}
